@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.817" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2021-01-17T11:09:14" tests="0" file="cypress/integration/main_page.js" failures="0" time="0">
+<testsuites name="Mocha Tests" time="1.9460000000000002" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-01-17T20:57:19" tests="0" file="cypress/integration/user_page.js" failures="0" time="0">
   </testsuite>
-  <testsuite name="Main Page tests" timestamp="2021-01-17T11:09:14" tests="1" failures="0" time="0.817">
-    <testcase name="Main Page tests opens main page" time="0.817" classname="opens main page">
+  <testsuite name="user page tests" timestamp="2021-01-17T20:57:19" tests="3" failures="0" time="1.9460000000000002">
+    <testcase name="user page tests opens user page" time="0.616" classname="opens user page">
+    </testcase>
+    <testcase name="user page tests saves user name" time="0.521" classname="saves user name">
+    </testcase>
+    <testcase name="user page tests shows and hides toast" time="0.809" classname="shows and hides toast">
     </testcase>
   </testsuite>
 </testsuites>

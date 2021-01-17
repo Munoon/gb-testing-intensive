@@ -1,8 +1,10 @@
 const cypress = require("cypress");
 
+const browser = process.argv.length > 2 ? process.argv[2] : 'chrome';
+
 cypress.run({
   reporter: "junit",
-  browser: "chrome",
+  browser,
   headless: "true",
   config: {
     baseUrl: "http://localhost:3000",
