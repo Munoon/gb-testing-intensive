@@ -14,7 +14,7 @@ describe('App tests', () => {
     expect(component).toMatchSnapshot();
   });
 
-  it('fails', () => {
-    expect(2).toEqual(1);
+  it("fails", () => {
+    expect(1).toEqual(2);
   });
 });
