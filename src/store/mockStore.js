@@ -26,16 +26,8 @@ const mockStateError = {
   },
 };
 
-const mockStateNoName = {
-  ...mockState,
-  user: {
-    name: null
-  }
-}
-
 const store = configureStore([thunk]);
 
 export const mockStore = store(() => mockState);
 export const mockStoreError = store(() => mockStateError);
 export const modifiedMockStore = modification => store(() => Object.assign(mockState, modification))
-export const mockStoreNoName = store(() => mockStateNoName);
