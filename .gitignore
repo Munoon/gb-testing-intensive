@@ -5,8 +5,12 @@
 /.pnp
 .pnp.js
 
+.idea
+.nyc_output
+
 # testing
 /coverage
+/cypress/videos
 
 # production
 /build

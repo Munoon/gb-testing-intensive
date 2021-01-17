@@ -40,4 +40,21 @@ describe("Main Page tests", () => {
         })
       });
   });
+
+  it('add article to favourite', () => {
+    const button = () => cy.get('.post button').first();
+    cy.intercept('GET', 'https://spaceflightnewsapi.net/api/v2/articles/', {
+      headers: { 'Access-Control-Allow-Origin': '*' },
+      fixture: 'articles.json'
+    });
+
+    cy.visit('');
+
+    button().invoke('text')
+        .then(value => expect(value).to.equal('+'));
+
+    button().click();
+    button().invoke('text')
+        .then(value => expect(value).to.equal('-'));
+  });
 });
