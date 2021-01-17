@@ -29,10 +29,13 @@ Object {
               User
             </a>
           </li>
+          <li>
+            <span />
+          </li>
         </ul>
       </header>
       <span>
-        Loading...
+        Loading articles...
       </span>
     </div>
   </body>,
@@ -61,10 +64,13 @@ Object {
             User
           </a>
         </li>
+        <li>
+          <span />
+        </li>
       </ul>
     </header>
     <span>
-      Loading...
+      Loading articles...
     </span>
   </div>,
   "debug": [Function],

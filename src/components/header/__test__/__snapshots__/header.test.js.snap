@@ -1,81 +1,65 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`articles placeholder test matches snapshot 1`] = `
+exports[`Header test snapshot 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="post-empty"
-        data-testid="article-placeholder"
+      <header
+        class="header"
       >
-        <div
-          class="header"
-        >
-          HEADER OF THE TITLE
-        </div>
-        <div
-          class="image"
-        >
-          IMAGE WILL GO HERE
-        </div>
-        <div
-          class="summary"
-        >
-          SUMMARYSSSS
-        </div>
-        <div
-          class="bottom"
-        >
-          <div
-            class="source"
-          >
-            SOURCE
-          </div>
-          <div
-            class="date"
-          >
-            DATE
-          </div>
-        </div>
-      </div>
+        Articles
+        <ul>
+          <li>
+            <a
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/user"
+            >
+              User
+            </a>
+          </li>
+          <li>
+            <span>
+              Name
+            </span>
+          </li>
+        </ul>
+      </header>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="post-empty"
-      data-testid="article-placeholder"
+    <header
+      class="header"
     >
-      <div
-        class="header"
-      >
-        HEADER OF THE TITLE
-      </div>
-      <div
-        class="image"
-      >
-        IMAGE WILL GO HERE
-      </div>
-      <div
-        class="summary"
-      >
-        SUMMARYSSSS
-      </div>
-      <div
-        class="bottom"
-      >
-        <div
-          class="source"
-        >
-          SOURCE
-        </div>
-        <div
-          class="date"
-        >
-          DATE
-        </div>
-      </div>
-    </div>
+      Articles
+      <ul>
+        <li>
+          <a
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="/user"
+          >
+            User
+          </a>
+        </li>
+        <li>
+          <span>
+            Name
+          </span>
+        </li>
+      </ul>
+    </header>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

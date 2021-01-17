@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Profile from '../profile';
 
 import './styles.css';
 
@@ -13,6 +14,9 @@ export default function Header() {
         </li>
         <li>
           <Link to="/user">User</Link>
+        </li>
+        <li>
+          <Profile />
         </li>
       </ul>
     </header>

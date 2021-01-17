@@ -36,6 +36,7 @@ export default function UserInfo() {
   return (
     <>
       <form>
+        <h2>User page</h2>
         <input type="text" value={value} onChange={handleChange} />
         <button type='submit' onClick={handleSave}>Save</button>
       </form>

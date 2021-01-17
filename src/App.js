@@ -15,15 +15,15 @@ function App() {
       <NetworkMessage />
       <Provider store={store}>
         <Router>
-        <Header />
-        <Switch>
-          <Route exact path="/">
-            <ArticlesList />
-          </Route>
-          <Route path="/user">
-            <UserInfo />
-          </Route>
-        </Switch>
+          <Header />
+          <Switch>
+            <Route exact path="/">
+              <ArticlesList />
+            </Route>
+            <Route path="/user">
+              <UserInfo />
+            </Route>
+          </Switch>
         </Router>
       </Provider>
     </>

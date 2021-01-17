@@ -25,7 +25,7 @@ class ArticlesList extends React.Component {
 
     if (requestStatus === REQUEST_STATUS.LOADING) {
       return (
-        <span>Loading...</span>
+        <span>Loading articles...</span>
       );
     }
 

@@ -1,11 +1,60 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`articles reducer tests matches snapshot after getArticlesFailure 1`] = `
+Object {
+  "articles": Array [],
+  "request": Object {
+    "error": [Error: failed to request articles],
+    "status": 3,
+  },
+}
+`;
+
 exports[`articles reducer tests matches snapshot after getArticlesRequest 1`] = `
 Object {
   "articles": Array [],
   "request": Object {
     "error": null,
     "status": 1,
+  },
+}
+`;
+
+exports[`articles reducer tests matches snapshot after getArticlesSuccess 1`] = `
+Object {
+  "articles": Array [
+    Object {
+      "title": "test",
+    },
+    Object {
+      "title": "test2",
+    },
+  ],
+  "request": Object {
+    "error": null,
+    "status": 2,
+  },
+}
+`;
+
+exports[`articles reducer tests matches snapshot after toggle favourites 1`] = `
+Object {
+  "articles": Array [
+    Object {
+      "favourite": true,
+      "id": "TEST_ID",
+      "title": "test",
+    },
+  ],
+}
+`;
+
+exports[`articles reducer tests matches snapshot after toggle favourites, that not exist 1`] = `
+Object {
+  "articles": Array [],
+  "request": Object {
+    "error": null,
+    "status": 0,
   },
 }
 `;

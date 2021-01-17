@@ -1,82 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`articles placeholder test matches snapshot 1`] = `
+exports[`Profile test snapshot 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    <div>
-      <div
-        class="post-empty"
-        data-testid="article-placeholder"
-      >
-        <div
-          class="header"
-        >
-          HEADER OF THE TITLE
-        </div>
-        <div
-          class="image"
-        >
-          IMAGE WILL GO HERE
-        </div>
-        <div
-          class="summary"
-        >
-          SUMMARYSSSS
-        </div>
-        <div
-          class="bottom"
-        >
-          <div
-            class="source"
-          >
-            SOURCE
-          </div>
-          <div
-            class="date"
-          >
-            DATE
-          </div>
-        </div>
-      </div>
-    </div>
+    <div />
   </body>,
-  "container": <div>
-    <div
-      class="post-empty"
-      data-testid="article-placeholder"
-    >
-      <div
-        class="header"
-      >
-        HEADER OF THE TITLE
-      </div>
-      <div
-        class="image"
-      >
-        IMAGE WILL GO HERE
-      </div>
-      <div
-        class="summary"
-      >
-        SUMMARYSSSS
-      </div>
-      <div
-        class="bottom"
-      >
-        <div
-          class="source"
-        >
-          SOURCE
-        </div>
-        <div
-          class="date"
-        >
-          DATE
-        </div>
-      </div>
-    </div>
-  </div>,
+  "container": <div />,
   "debug": [Function],
   "findAllByAltText": [Function],
   "findAllByDisplayValue": [Function],

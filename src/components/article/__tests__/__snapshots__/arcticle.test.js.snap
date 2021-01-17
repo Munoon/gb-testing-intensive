@@ -1,28 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`articles placeholder test matches snapshot 1`] = `
+exports[`article test snapshot 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="post-empty"
-        data-testid="article-placeholder"
+      <a
+        class="post"
+        href="http://localhost/article"
       >
         <div
           class="header"
         >
-          HEADER OF THE TITLE
+          Test Article
         </div>
         <div
-          class="image"
+          class="imageWrapper"
         >
-          IMAGE WILL GO HERE
+          <img
+            alt="Test Article"
+            class="image"
+            src="http://localhost/img"
+          />
         </div>
         <div
           class="summary"
         >
-          SUMMARYSSSS
+          Text about this article
         </div>
         <div
           class="bottom"
@@ -30,36 +34,40 @@ Object {
           <div
             class="source"
           >
-            SOURCE
+            CCB
           </div>
           <div
             class="date"
           >
-            DATE
+            Invalid Date
           </div>
         </div>
-      </div>
+      </a>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="post-empty"
-      data-testid="article-placeholder"
+    <a
+      class="post"
+      href="http://localhost/article"
     >
       <div
         class="header"
       >
-        HEADER OF THE TITLE
+        Test Article
       </div>
       <div
-        class="image"
+        class="imageWrapper"
       >
-        IMAGE WILL GO HERE
+        <img
+          alt="Test Article"
+          class="image"
+          src="http://localhost/img"
+        />
       </div>
       <div
         class="summary"
       >
-        SUMMARYSSSS
+        Text about this article
       </div>
       <div
         class="bottom"
@@ -67,15 +75,15 @@ Object {
         <div
           class="source"
         >
-          SOURCE
+          CCB
         </div>
         <div
           class="date"
         >
-          DATE
+          Invalid Date
         </div>
       </div>
-    </div>
+    </a>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

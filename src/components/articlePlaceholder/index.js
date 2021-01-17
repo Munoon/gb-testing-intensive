@@ -4,7 +4,7 @@ import "./styles.css";
 
 export default function ArticlePlaceholder() {
   return (
-    <div className="post-empty">
+    <div className="post-empty" data-testid='article-placeholder'>
       <div className="header">HEADER OF THE TITLE</div>
       <div className="image">IMAGE WILL GO HERE</div>
       <div className="summary">SUMMARYSSSS</div>
